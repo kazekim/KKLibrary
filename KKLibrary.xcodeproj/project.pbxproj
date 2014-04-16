@@ -16,9 +16,77 @@
 		DF47B0C818FE89ED00A3AEF4 /* KKLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF47B0AB18FE89ED00A3AEF4 /* KKLibrary.framework */; };
 		DF47B0CE18FE89ED00A3AEF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF47B0CC18FE89ED00A3AEF4 /* InfoPlist.strings */; };
 		DF47B0D018FE89ED00A3AEF4 /* KKLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B0CF18FE89ED00A3AEF4 /* KKLibraryTests.m */; };
-		DF47B0E518FE8BEB00A3AEF4 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B0E218FE8BEB00A3AEF4 /* UIColor+HexString.h */; };
+		DF47B0E518FE8BEB00A3AEF4 /* UIColor+HexString.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B0E218FE8BEB00A3AEF4 /* UIColor+HexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF47B0E618FE8BEB00A3AEF4 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B0E318FE8BEB00A3AEF4 /* UIColor+HexString.m */; };
-		DF47B0E718FE8BEB00A3AEF4 /* KKColorLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B0E418FE8BEB00A3AEF4 /* KKColorLib.h */; };
+		DF47B0E718FE8BEB00A3AEF4 /* KKColorLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B0E418FE8BEB00A3AEF4 /* KKColorLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B14F18FE8D3F00A3AEF4 /* KKAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B0E918FE8D3F00A3AEF4 /* KKAddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B15018FE8D3F00A3AEF4 /* KKAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B0EA18FE8D3F00A3AEF4 /* KKAddressBook.m */; };
+		DF47B15118FE8D3F00A3AEF4 /* KKContactData.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B0EB18FE8D3F00A3AEF4 /* KKContactData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B15218FE8D3F00A3AEF4 /* KKContactData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B0EC18FE8D3F00A3AEF4 /* KKContactData.m */; };
+		DF47B15318FE8D3F00A3AEF4 /* KKAddressBookLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B0ED18FE8D3F00A3AEF4 /* KKAddressBookLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B15418FE8D3F00A3AEF4 /* NSArray+JSONString.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B0EF18FE8D3F00A3AEF4 /* NSArray+JSONString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B15518FE8D3F00A3AEF4 /* NSArray+JSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B0F018FE8D3F00A3AEF4 /* NSArray+JSONString.m */; };
+		DF47B15618FE8D3F00A3AEF4 /* KKArrayLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B0F118FE8D3F00A3AEF4 /* KKArrayLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B15718FE8D3F00A3AEF4 /* KKCircleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B0F318FE8D3F00A3AEF4 /* KKCircleButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B15818FE8D3F00A3AEF4 /* KKCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B0F418FE8D3F00A3AEF4 /* KKCircleButton.m */; };
+		DF47B16418FE8D3F00A3AEF4 /* KKButtonLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B10918FE8D3F00A3AEF4 /* KKButtonLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B16518FE8D3F00A3AEF4 /* NSDictionary+JSONString.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B10B18FE8D3F00A3AEF4 /* NSDictionary+JSONString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B16618FE8D3F00A3AEF4 /* NSDictionary+JSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B10C18FE8D3F00A3AEF4 /* NSDictionary+JSONString.m */; };
+		DF47B16718FE8D3F00A3AEF4 /* KKDictionaryLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B10D18FE8D3F00A3AEF4 /* KKDictionaryLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B16818FE8D3F00A3AEF4 /* KKFont.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B10F18FE8D3F00A3AEF4 /* KKFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B16918FE8D3F00A3AEF4 /* KKFont.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B11018FE8D3F00A3AEF4 /* KKFont.m */; };
+		DF47B16A18FE8D3F00A3AEF4 /* KKFontLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B11118FE8D3F00A3AEF4 /* KKFontLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B16B18FE8D3F00A3AEF4 /* KKKeyboardControl.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B11318FE8D3F00A3AEF4 /* KKKeyboardControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B16C18FE8D3F00A3AEF4 /* KKKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B11418FE8D3F00A3AEF4 /* KKKeyboardControl.m */; };
+		DF47B16D18FE8D3F00A3AEF4 /* KKKeyboardLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B11518FE8D3F00A3AEF4 /* KKKeyboardLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B16E18FE8D3F00A3AEF4 /* KKNavigationControl.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B11718FE8D3F00A3AEF4 /* KKNavigationControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B16F18FE8D3F00A3AEF4 /* KKNavigationControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B11818FE8D3F00A3AEF4 /* KKNavigationControl.m */; };
+		DF47B17018FE8D3F00A3AEF4 /* KKNavigationLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B11918FE8D3F00A3AEF4 /* KKNavigationLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B17118FE8D3F00A3AEF4 /* NSNumber+Decimal.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B11B18FE8D3F00A3AEF4 /* NSNumber+Decimal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B17218FE8D3F00A3AEF4 /* NSNumber+Decimal.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B11C18FE8D3F00A3AEF4 /* NSNumber+Decimal.m */; };
+		DF47B17318FE8D3F00A3AEF4 /* KKNumberLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B11D18FE8D3F00A3AEF4 /* KKNumberLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B17418FE8D3F00A3AEF4 /* KKPList.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B11F18FE8D3F00A3AEF4 /* KKPList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B17518FE8D3F00A3AEF4 /* KKPList.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B12018FE8D3F00A3AEF4 /* KKPList.m */; };
+		DF47B17618FE8D3F00A3AEF4 /* KKPListLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B12118FE8D3F00A3AEF4 /* KKPListLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B17718FE8D3F00A3AEF4 /* b64.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B12318FE8D3F00A3AEF4 /* b64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B17818FE8D3F00A3AEF4 /* b64.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B12418FE8D3F00A3AEF4 /* b64.m */; };
+		DF47B17918FE8D3F00A3AEF4 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B12518FE8D3F00A3AEF4 /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B17A18FE8D3F00A3AEF4 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B12618FE8D3F00A3AEF4 /* NSData+Base64.m */; };
+		DF47B17B18FE8D3F00A3AEF4 /* NSError+CFStreamError.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B12718FE8D3F00A3AEF4 /* NSError+CFStreamError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B17C18FE8D3F00A3AEF4 /* NSError+CFStreamError.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B12818FE8D3F00A3AEF4 /* NSError+CFStreamError.m */; };
+		DF47B17D18FE8D3F00A3AEF4 /* NSObject+Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B12918FE8D3F00A3AEF4 /* NSObject+Properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B17E18FE8D3F00A3AEF4 /* NSObject+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B12A18FE8D3F00A3AEF4 /* NSObject+Properties.m */; };
+		DF47B17F18FE8D3F00A3AEF4 /* NSString+PropertyKVC.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B12B18FE8D3F00A3AEF4 /* NSString+PropertyKVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B18018FE8D3F00A3AEF4 /* NSString+PropertyKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B12C18FE8D3F00A3AEF4 /* NSString+PropertyKVC.m */; };
+		DF47B18118FE8D3F00A3AEF4 /* KKPropertyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B12D18FE8D3F00A3AEF4 /* KKPropertyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B18218FE8D3F00A3AEF4 /* NSData+ToString.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B12F18FE8D3F00A3AEF4 /* NSData+ToString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B18318FE8D3F00A3AEF4 /* NSData+ToString.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B13018FE8D3F00A3AEF4 /* NSData+ToString.m */; };
+		DF47B18418FE8D3F00A3AEF4 /* NSString+Decimal.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B13118FE8D3F00A3AEF4 /* NSString+Decimal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B18518FE8D3F00A3AEF4 /* NSString+Decimal.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B13218FE8D3F00A3AEF4 /* NSString+Decimal.m */; };
+		DF47B18618FE8D3F00A3AEF4 /* NSString+HMac.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B13318FE8D3F00A3AEF4 /* NSString+HMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B18718FE8D3F00A3AEF4 /* NSString+HMac.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B13418FE8D3F00A3AEF4 /* NSString+HMac.m */; };
+		DF47B18818FE8D3F00A3AEF4 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B13518FE8D3F00A3AEF4 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B18918FE8D3F00A3AEF4 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B13618FE8D3F00A3AEF4 /* NSString+MD5.m */; };
+		DF47B18A18FE8D3F00A3AEF4 /* NSString+StrikeThrough.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B13718FE8D3F00A3AEF4 /* NSString+StrikeThrough.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B18B18FE8D3F00A3AEF4 /* NSString+StrikeThrough.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B13818FE8D3F00A3AEF4 /* NSString+StrikeThrough.m */; };
+		DF47B18C18FE8D3F00A3AEF4 /* NSString+URLDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B13918FE8D3F00A3AEF4 /* NSString+URLDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B18D18FE8D3F00A3AEF4 /* NSString+URLDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B13A18FE8D3F00A3AEF4 /* NSString+URLDecode.m */; };
+		DF47B18E18FE8D3F00A3AEF4 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B13B18FE8D3F00A3AEF4 /* NSString+URLEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B18F18FE8D3F00A3AEF4 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B13C18FE8D3F00A3AEF4 /* NSString+URLEncode.m */; };
+		DF47B19018FE8D3F00A3AEF4 /* KKStringLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B13D18FE8D3F00A3AEF4 /* KKStringLib.h */; };
+		DF47B19118FE8D3F00A3AEF4 /* SFHFKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14018FE8D3F00A3AEF4 /* SFHFKeychainUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B19218FE8D3F00A3AEF4 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B14118FE8D3F00A3AEF4 /* SFHFKeychainUtils.m */; };
+		DF47B19318FE8D3F00A3AEF4 /* KKReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14218FE8D3F00A3AEF4 /* KKReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B19418FE8D3F00A3AEF4 /* KKReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B14318FE8D3F00A3AEF4 /* KKReachability.m */; };
+		DF47B19518FE8D3F00A3AEF4 /* KKSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14418FE8D3F00A3AEF4 /* KKSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B19618FE8D3F00A3AEF4 /* KKSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B14518FE8D3F00A3AEF4 /* KKSystem.m */; };
+		DF47B19718FE8D3F00A3AEF4 /* KKSystemLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14618FE8D3F00A3AEF4 /* KKSystemLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B19818FE8D3F00A3AEF4 /* KKCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14818FE8D3F00A3AEF4 /* KKCell.h */; };
+		DF47B19918FE8D3F00A3AEF4 /* KKCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B14918FE8D3F00A3AEF4 /* KKCell.m */; };
+		DF47B19A18FE8D3F00A3AEF4 /* KKTableViewLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14A18FE8D3F00A3AEF4 /* KKTableViewLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B19B18FE8D3F00A3AEF4 /* UITextView+FitFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14C18FE8D3F00A3AEF4 /* UITextView+FitFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF47B19C18FE8D3F00A3AEF4 /* UITextView+FitFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B14D18FE8D3F00A3AEF4 /* UITextView+FitFrame.m */; };
+		DF47B19D18FE8D3F00A3AEF4 /* KKTextViewLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14E18FE8D3F00A3AEF4 /* KKTextViewLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +123,74 @@
 		DF47B0E218FE8BEB00A3AEF4 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
 		DF47B0E318FE8BEB00A3AEF4 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 		DF47B0E418FE8BEB00A3AEF4 /* KKColorLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKColorLib.h; path = src/KKColorLib.h; sourceTree = "<group>"; };
+		DF47B0E918FE8D3F00A3AEF4 /* KKAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAddressBook.h; sourceTree = "<group>"; };
+		DF47B0EA18FE8D3F00A3AEF4 /* KKAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAddressBook.m; sourceTree = "<group>"; };
+		DF47B0EB18FE8D3F00A3AEF4 /* KKContactData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKContactData.h; sourceTree = "<group>"; };
+		DF47B0EC18FE8D3F00A3AEF4 /* KKContactData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKContactData.m; sourceTree = "<group>"; };
+		DF47B0ED18FE8D3F00A3AEF4 /* KKAddressBookLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKAddressBookLib.h; path = src/KKAddressBookLib.h; sourceTree = "<group>"; };
+		DF47B0EF18FE8D3F00A3AEF4 /* NSArray+JSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONString.h"; sourceTree = "<group>"; };
+		DF47B0F018FE8D3F00A3AEF4 /* NSArray+JSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONString.m"; sourceTree = "<group>"; };
+		DF47B0F118FE8D3F00A3AEF4 /* KKArrayLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKArrayLib.h; path = src/KKArrayLib.h; sourceTree = "<group>"; };
+		DF47B0F318FE8D3F00A3AEF4 /* KKCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCircleButton.h; sourceTree = "<group>"; };
+		DF47B0F418FE8D3F00A3AEF4 /* KKCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCircleButton.m; sourceTree = "<group>"; };
+		DF47B10918FE8D3F00A3AEF4 /* KKButtonLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKButtonLib.h; path = src/KKButtonLib.h; sourceTree = "<group>"; };
+		DF47B10B18FE8D3F00A3AEF4 /* NSDictionary+JSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSONString.h"; sourceTree = "<group>"; };
+		DF47B10C18FE8D3F00A3AEF4 /* NSDictionary+JSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSONString.m"; sourceTree = "<group>"; };
+		DF47B10D18FE8D3F00A3AEF4 /* KKDictionaryLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKDictionaryLib.h; path = src/KKDictionaryLib.h; sourceTree = "<group>"; };
+		DF47B10F18FE8D3F00A3AEF4 /* KKFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKFont.h; sourceTree = "<group>"; };
+		DF47B11018FE8D3F00A3AEF4 /* KKFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKFont.m; sourceTree = "<group>"; };
+		DF47B11118FE8D3F00A3AEF4 /* KKFontLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKFontLib.h; path = src/KKFontLib.h; sourceTree = "<group>"; };
+		DF47B11318FE8D3F00A3AEF4 /* KKKeyboardControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKKeyboardControl.h; sourceTree = "<group>"; };
+		DF47B11418FE8D3F00A3AEF4 /* KKKeyboardControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKKeyboardControl.m; sourceTree = "<group>"; };
+		DF47B11518FE8D3F00A3AEF4 /* KKKeyboardLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKKeyboardLib.h; path = src/KKKeyboardLib.h; sourceTree = "<group>"; };
+		DF47B11718FE8D3F00A3AEF4 /* KKNavigationControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKNavigationControl.h; sourceTree = "<group>"; };
+		DF47B11818FE8D3F00A3AEF4 /* KKNavigationControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKNavigationControl.m; sourceTree = "<group>"; };
+		DF47B11918FE8D3F00A3AEF4 /* KKNavigationLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKNavigationLib.h; path = src/KKNavigationLib.h; sourceTree = "<group>"; };
+		DF47B11B18FE8D3F00A3AEF4 /* NSNumber+Decimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Decimal.h"; sourceTree = "<group>"; };
+		DF47B11C18FE8D3F00A3AEF4 /* NSNumber+Decimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Decimal.m"; sourceTree = "<group>"; };
+		DF47B11D18FE8D3F00A3AEF4 /* KKNumberLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKNumberLib.h; path = src/KKNumberLib.h; sourceTree = "<group>"; };
+		DF47B11F18FE8D3F00A3AEF4 /* KKPList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPList.h; sourceTree = "<group>"; };
+		DF47B12018FE8D3F00A3AEF4 /* KKPList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPList.m; sourceTree = "<group>"; };
+		DF47B12118FE8D3F00A3AEF4 /* KKPListLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKPListLib.h; path = src/KKPListLib.h; sourceTree = "<group>"; };
+		DF47B12318FE8D3F00A3AEF4 /* b64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b64.h; sourceTree = "<group>"; };
+		DF47B12418FE8D3F00A3AEF4 /* b64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = b64.m; sourceTree = "<group>"; };
+		DF47B12518FE8D3F00A3AEF4 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		DF47B12618FE8D3F00A3AEF4 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		DF47B12718FE8D3F00A3AEF4 /* NSError+CFStreamError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+CFStreamError.h"; sourceTree = "<group>"; };
+		DF47B12818FE8D3F00A3AEF4 /* NSError+CFStreamError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+CFStreamError.m"; sourceTree = "<group>"; };
+		DF47B12918FE8D3F00A3AEF4 /* NSObject+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Properties.h"; sourceTree = "<group>"; };
+		DF47B12A18FE8D3F00A3AEF4 /* NSObject+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Properties.m"; sourceTree = "<group>"; };
+		DF47B12B18FE8D3F00A3AEF4 /* NSString+PropertyKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PropertyKVC.h"; sourceTree = "<group>"; };
+		DF47B12C18FE8D3F00A3AEF4 /* NSString+PropertyKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PropertyKVC.m"; sourceTree = "<group>"; };
+		DF47B12D18FE8D3F00A3AEF4 /* KKPropertyLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKPropertyLib.h; path = src/KKPropertyLib.h; sourceTree = "<group>"; };
+		DF47B12F18FE8D3F00A3AEF4 /* NSData+ToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ToString.h"; sourceTree = "<group>"; };
+		DF47B13018FE8D3F00A3AEF4 /* NSData+ToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ToString.m"; sourceTree = "<group>"; };
+		DF47B13118FE8D3F00A3AEF4 /* NSString+Decimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Decimal.h"; sourceTree = "<group>"; };
+		DF47B13218FE8D3F00A3AEF4 /* NSString+Decimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Decimal.m"; sourceTree = "<group>"; };
+		DF47B13318FE8D3F00A3AEF4 /* NSString+HMac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HMac.h"; sourceTree = "<group>"; };
+		DF47B13418FE8D3F00A3AEF4 /* NSString+HMac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HMac.m"; sourceTree = "<group>"; };
+		DF47B13518FE8D3F00A3AEF4 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		DF47B13618FE8D3F00A3AEF4 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		DF47B13718FE8D3F00A3AEF4 /* NSString+StrikeThrough.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StrikeThrough.h"; sourceTree = "<group>"; };
+		DF47B13818FE8D3F00A3AEF4 /* NSString+StrikeThrough.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StrikeThrough.m"; sourceTree = "<group>"; };
+		DF47B13918FE8D3F00A3AEF4 /* NSString+URLDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLDecode.h"; sourceTree = "<group>"; };
+		DF47B13A18FE8D3F00A3AEF4 /* NSString+URLDecode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLDecode.m"; sourceTree = "<group>"; };
+		DF47B13B18FE8D3F00A3AEF4 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		DF47B13C18FE8D3F00A3AEF4 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		DF47B13D18FE8D3F00A3AEF4 /* KKStringLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKStringLib.h; path = src/KKStringLib.h; sourceTree = "<group>"; };
+		DF47B14018FE8D3F00A3AEF4 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		DF47B14118FE8D3F00A3AEF4 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		DF47B14218FE8D3F00A3AEF4 /* KKReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKReachability.h; sourceTree = "<group>"; };
+		DF47B14318FE8D3F00A3AEF4 /* KKReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKReachability.m; sourceTree = "<group>"; };
+		DF47B14418FE8D3F00A3AEF4 /* KKSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSystem.h; sourceTree = "<group>"; };
+		DF47B14518FE8D3F00A3AEF4 /* KKSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSystem.m; sourceTree = "<group>"; };
+		DF47B14618FE8D3F00A3AEF4 /* KKSystemLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKSystemLib.h; path = src/KKSystemLib.h; sourceTree = "<group>"; };
+		DF47B14818FE8D3F00A3AEF4 /* KKCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCell.h; sourceTree = "<group>"; };
+		DF47B14918FE8D3F00A3AEF4 /* KKCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCell.m; sourceTree = "<group>"; };
+		DF47B14A18FE8D3F00A3AEF4 /* KKTableViewLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKTableViewLib.h; path = src/KKTableViewLib.h; sourceTree = "<group>"; };
+		DF47B14C18FE8D3F00A3AEF4 /* UITextView+FitFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+FitFrame.h"; sourceTree = "<group>"; };
+		DF47B14D18FE8D3F00A3AEF4 /* UITextView+FitFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+FitFrame.m"; sourceTree = "<group>"; };
+		DF47B14E18FE8D3F00A3AEF4 /* KKTextViewLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKTextViewLib.h; path = src/KKTextViewLib.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +248,36 @@
 		DF47B0B018FE89ED00A3AEF4 /* KKLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				DF47B0E818FE8D3F00A3AEF4 /* KKAddressBook */,
+				DF47B0EE18FE8D3F00A3AEF4 /* KKArray */,
+				DF47B0F218FE8D3F00A3AEF4 /* KKButton */,
+				DF47B10A18FE8D3F00A3AEF4 /* KKDictionary */,
+				DF47B10E18FE8D3F00A3AEF4 /* KKFont */,
+				DF47B11218FE8D3F00A3AEF4 /* KKKeyboard */,
+				DF47B11618FE8D3F00A3AEF4 /* KKNavigation */,
+				DF47B11A18FE8D3F00A3AEF4 /* KKNumber */,
+				DF47B11E18FE8D3F00A3AEF4 /* KKPList */,
+				DF47B12218FE8D3F00A3AEF4 /* KKProperty */,
+				DF47B12E18FE8D3F00A3AEF4 /* KKString */,
+				DF47B13E18FE8D3F00A3AEF4 /* KKSystem */,
+				DF47B14718FE8D3F00A3AEF4 /* KKTableView */,
+				DF47B14B18FE8D3F00A3AEF4 /* KKTextView */,
 				DF47B0E118FE8BEB00A3AEF4 /* KKColor */,
 				DF47B0E418FE8BEB00A3AEF4 /* KKColorLib.h */,
+				DF47B0ED18FE8D3F00A3AEF4 /* KKAddressBookLib.h */,
+				DF47B0F118FE8D3F00A3AEF4 /* KKArrayLib.h */,
+				DF47B10918FE8D3F00A3AEF4 /* KKButtonLib.h */,
+				DF47B10D18FE8D3F00A3AEF4 /* KKDictionaryLib.h */,
+				DF47B11118FE8D3F00A3AEF4 /* KKFontLib.h */,
+				DF47B11518FE8D3F00A3AEF4 /* KKKeyboardLib.h */,
+				DF47B11918FE8D3F00A3AEF4 /* KKNavigationLib.h */,
+				DF47B11D18FE8D3F00A3AEF4 /* KKNumberLib.h */,
+				DF47B12118FE8D3F00A3AEF4 /* KKPListLib.h */,
+				DF47B12D18FE8D3F00A3AEF4 /* KKPropertyLib.h */,
+				DF47B13D18FE8D3F00A3AEF4 /* KKStringLib.h */,
+				DF47B14618FE8D3F00A3AEF4 /* KKSystemLib.h */,
+				DF47B14A18FE8D3F00A3AEF4 /* KKTableViewLib.h */,
+				DF47B14E18FE8D3F00A3AEF4 /* KKTextViewLib.h */,
 				DF47B0B718FE89ED00A3AEF4 /* KKLibrary.h */,
 				DF47B0B818FE89ED00A3AEF4 /* KKLibrary.m */,
 				DF47B0B118FE89ED00A3AEF4 /* Supporting Files */,
@@ -159,6 +323,180 @@
 			path = src/KKColor;
 			sourceTree = "<group>";
 		};
+		DF47B0E818FE8D3F00A3AEF4 /* KKAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B0E918FE8D3F00A3AEF4 /* KKAddressBook.h */,
+				DF47B0EA18FE8D3F00A3AEF4 /* KKAddressBook.m */,
+				DF47B0EB18FE8D3F00A3AEF4 /* KKContactData.h */,
+				DF47B0EC18FE8D3F00A3AEF4 /* KKContactData.m */,
+			);
+			name = KKAddressBook;
+			path = src/KKAddressBook;
+			sourceTree = "<group>";
+		};
+		DF47B0EE18FE8D3F00A3AEF4 /* KKArray */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B0EF18FE8D3F00A3AEF4 /* NSArray+JSONString.h */,
+				DF47B0F018FE8D3F00A3AEF4 /* NSArray+JSONString.m */,
+			);
+			name = KKArray;
+			path = src/KKArray;
+			sourceTree = "<group>";
+		};
+		DF47B0F218FE8D3F00A3AEF4 /* KKButton */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B0F318FE8D3F00A3AEF4 /* KKCircleButton.h */,
+				DF47B0F418FE8D3F00A3AEF4 /* KKCircleButton.m */,
+			);
+			name = KKButton;
+			path = src/KKButton;
+			sourceTree = "<group>";
+		};
+		DF47B10A18FE8D3F00A3AEF4 /* KKDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B10B18FE8D3F00A3AEF4 /* NSDictionary+JSONString.h */,
+				DF47B10C18FE8D3F00A3AEF4 /* NSDictionary+JSONString.m */,
+			);
+			name = KKDictionary;
+			path = src/KKDictionary;
+			sourceTree = "<group>";
+		};
+		DF47B10E18FE8D3F00A3AEF4 /* KKFont */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B10F18FE8D3F00A3AEF4 /* KKFont.h */,
+				DF47B11018FE8D3F00A3AEF4 /* KKFont.m */,
+			);
+			name = KKFont;
+			path = src/KKFont;
+			sourceTree = "<group>";
+		};
+		DF47B11218FE8D3F00A3AEF4 /* KKKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B11318FE8D3F00A3AEF4 /* KKKeyboardControl.h */,
+				DF47B11418FE8D3F00A3AEF4 /* KKKeyboardControl.m */,
+			);
+			name = KKKeyboard;
+			path = src/KKKeyboard;
+			sourceTree = "<group>";
+		};
+		DF47B11618FE8D3F00A3AEF4 /* KKNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B11718FE8D3F00A3AEF4 /* KKNavigationControl.h */,
+				DF47B11818FE8D3F00A3AEF4 /* KKNavigationControl.m */,
+			);
+			name = KKNavigation;
+			path = src/KKNavigation;
+			sourceTree = "<group>";
+		};
+		DF47B11A18FE8D3F00A3AEF4 /* KKNumber */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B11B18FE8D3F00A3AEF4 /* NSNumber+Decimal.h */,
+				DF47B11C18FE8D3F00A3AEF4 /* NSNumber+Decimal.m */,
+			);
+			name = KKNumber;
+			path = src/KKNumber;
+			sourceTree = "<group>";
+		};
+		DF47B11E18FE8D3F00A3AEF4 /* KKPList */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B11F18FE8D3F00A3AEF4 /* KKPList.h */,
+				DF47B12018FE8D3F00A3AEF4 /* KKPList.m */,
+			);
+			name = KKPList;
+			path = src/KKPList;
+			sourceTree = "<group>";
+		};
+		DF47B12218FE8D3F00A3AEF4 /* KKProperty */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B12318FE8D3F00A3AEF4 /* b64.h */,
+				DF47B12418FE8D3F00A3AEF4 /* b64.m */,
+				DF47B12518FE8D3F00A3AEF4 /* NSData+Base64.h */,
+				DF47B12618FE8D3F00A3AEF4 /* NSData+Base64.m */,
+				DF47B12718FE8D3F00A3AEF4 /* NSError+CFStreamError.h */,
+				DF47B12818FE8D3F00A3AEF4 /* NSError+CFStreamError.m */,
+				DF47B12918FE8D3F00A3AEF4 /* NSObject+Properties.h */,
+				DF47B12A18FE8D3F00A3AEF4 /* NSObject+Properties.m */,
+				DF47B12B18FE8D3F00A3AEF4 /* NSString+PropertyKVC.h */,
+				DF47B12C18FE8D3F00A3AEF4 /* NSString+PropertyKVC.m */,
+			);
+			name = KKProperty;
+			path = src/KKProperty;
+			sourceTree = "<group>";
+		};
+		DF47B12E18FE8D3F00A3AEF4 /* KKString */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B12F18FE8D3F00A3AEF4 /* NSData+ToString.h */,
+				DF47B13018FE8D3F00A3AEF4 /* NSData+ToString.m */,
+				DF47B13118FE8D3F00A3AEF4 /* NSString+Decimal.h */,
+				DF47B13218FE8D3F00A3AEF4 /* NSString+Decimal.m */,
+				DF47B13318FE8D3F00A3AEF4 /* NSString+HMac.h */,
+				DF47B13418FE8D3F00A3AEF4 /* NSString+HMac.m */,
+				DF47B13518FE8D3F00A3AEF4 /* NSString+MD5.h */,
+				DF47B13618FE8D3F00A3AEF4 /* NSString+MD5.m */,
+				DF47B13718FE8D3F00A3AEF4 /* NSString+StrikeThrough.h */,
+				DF47B13818FE8D3F00A3AEF4 /* NSString+StrikeThrough.m */,
+				DF47B13918FE8D3F00A3AEF4 /* NSString+URLDecode.h */,
+				DF47B13A18FE8D3F00A3AEF4 /* NSString+URLDecode.m */,
+				DF47B13B18FE8D3F00A3AEF4 /* NSString+URLEncode.h */,
+				DF47B13C18FE8D3F00A3AEF4 /* NSString+URLEncode.m */,
+			);
+			name = KKString;
+			path = src/KKString;
+			sourceTree = "<group>";
+		};
+		DF47B13E18FE8D3F00A3AEF4 /* KKSystem */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B13F18FE8D3F00A3AEF4 /* KeyChainUtils */,
+				DF47B14218FE8D3F00A3AEF4 /* KKReachability.h */,
+				DF47B14318FE8D3F00A3AEF4 /* KKReachability.m */,
+				DF47B14418FE8D3F00A3AEF4 /* KKSystem.h */,
+				DF47B14518FE8D3F00A3AEF4 /* KKSystem.m */,
+			);
+			name = KKSystem;
+			path = src/KKSystem;
+			sourceTree = "<group>";
+		};
+		DF47B13F18FE8D3F00A3AEF4 /* KeyChainUtils */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B14018FE8D3F00A3AEF4 /* SFHFKeychainUtils.h */,
+				DF47B14118FE8D3F00A3AEF4 /* SFHFKeychainUtils.m */,
+			);
+			path = KeyChainUtils;
+			sourceTree = "<group>";
+		};
+		DF47B14718FE8D3F00A3AEF4 /* KKTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B14818FE8D3F00A3AEF4 /* KKCell.h */,
+				DF47B14918FE8D3F00A3AEF4 /* KKCell.m */,
+			);
+			name = KKTableView;
+			path = src/KKTableView;
+			sourceTree = "<group>";
+		};
+		DF47B14B18FE8D3F00A3AEF4 /* KKTextView */ = {
+			isa = PBXGroup;
+			children = (
+				DF47B14C18FE8D3F00A3AEF4 /* UITextView+FitFrame.h */,
+				DF47B14D18FE8D3F00A3AEF4 /* UITextView+FitFrame.m */,
+			);
+			name = KKTextView;
+			path = src/KKTextView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -166,8 +504,49 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF47B17D18FE8D3F00A3AEF4 /* NSObject+Properties.h in Headers */,
+				DF47B19318FE8D3F00A3AEF4 /* KKReachability.h in Headers */,
+				DF47B16518FE8D3F00A3AEF4 /* NSDictionary+JSONString.h in Headers */,
+				DF47B18818FE8D3F00A3AEF4 /* NSString+MD5.h in Headers */,
+				DF47B14F18FE8D3F00A3AEF4 /* KKAddressBook.h in Headers */,
+				DF47B18E18FE8D3F00A3AEF4 /* NSString+URLEncode.h in Headers */,
+				DF47B17618FE8D3F00A3AEF4 /* KKPListLib.h in Headers */,
+				DF47B16E18FE8D3F00A3AEF4 /* KKNavigationControl.h in Headers */,
+				DF47B16418FE8D3F00A3AEF4 /* KKButtonLib.h in Headers */,
+				DF47B17718FE8D3F00A3AEF4 /* b64.h in Headers */,
+				DF47B18218FE8D3F00A3AEF4 /* NSData+ToString.h in Headers */,
+				DF47B15118FE8D3F00A3AEF4 /* KKContactData.h in Headers */,
+				DF47B15718FE8D3F00A3AEF4 /* KKCircleButton.h in Headers */,
+				DF47B19118FE8D3F00A3AEF4 /* SFHFKeychainUtils.h in Headers */,
+				DF47B17918FE8D3F00A3AEF4 /* NSData+Base64.h in Headers */,
+				DF47B17F18FE8D3F00A3AEF4 /* NSString+PropertyKVC.h in Headers */,
+				DF47B17118FE8D3F00A3AEF4 /* NSNumber+Decimal.h in Headers */,
+				DF47B17B18FE8D3F00A3AEF4 /* NSError+CFStreamError.h in Headers */,
+				DF47B16718FE8D3F00A3AEF4 /* KKDictionaryLib.h in Headers */,
+				DF47B18A18FE8D3F00A3AEF4 /* NSString+StrikeThrough.h in Headers */,
+				DF47B19D18FE8D3F00A3AEF4 /* KKTextViewLib.h in Headers */,
+				DF47B16A18FE8D3F00A3AEF4 /* KKFontLib.h in Headers */,
+				DF47B17418FE8D3F00A3AEF4 /* KKPList.h in Headers */,
+				DF47B19518FE8D3F00A3AEF4 /* KKSystem.h in Headers */,
+				DF47B19718FE8D3F00A3AEF4 /* KKSystemLib.h in Headers */,
+				DF47B18418FE8D3F00A3AEF4 /* NSString+Decimal.h in Headers */,
+				DF47B15418FE8D3F00A3AEF4 /* NSArray+JSONString.h in Headers */,
+				DF47B16D18FE8D3F00A3AEF4 /* KKKeyboardLib.h in Headers */,
+				DF47B17018FE8D3F00A3AEF4 /* KKNavigationLib.h in Headers */,
+				DF47B16818FE8D3F00A3AEF4 /* KKFont.h in Headers */,
+				DF47B15618FE8D3F00A3AEF4 /* KKArrayLib.h in Headers */,
+				DF47B19A18FE8D3F00A3AEF4 /* KKTableViewLib.h in Headers */,
+				DF47B18C18FE8D3F00A3AEF4 /* NSString+URLDecode.h in Headers */,
+				DF47B17318FE8D3F00A3AEF4 /* KKNumberLib.h in Headers */,
+				DF47B15318FE8D3F00A3AEF4 /* KKAddressBookLib.h in Headers */,
+				DF47B18618FE8D3F00A3AEF4 /* NSString+HMac.h in Headers */,
+				DF47B16B18FE8D3F00A3AEF4 /* KKKeyboardControl.h in Headers */,
 				DF47B0E718FE8BEB00A3AEF4 /* KKColorLib.h in Headers */,
+				DF47B18118FE8D3F00A3AEF4 /* KKPropertyLib.h in Headers */,
+				DF47B19B18FE8D3F00A3AEF4 /* UITextView+FitFrame.h in Headers */,
 				DF47B0E518FE8BEB00A3AEF4 /* UIColor+HexString.h in Headers */,
+				DF47B19818FE8D3F00A3AEF4 /* KKCell.h in Headers */,
+				DF47B19018FE8D3F00A3AEF4 /* KKStringLib.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,8 +664,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF47B15518FE8D3F00A3AEF4 /* NSArray+JSONString.m in Sources */,
+				DF47B18D18FE8D3F00A3AEF4 /* NSString+URLDecode.m in Sources */,
+				DF47B19918FE8D3F00A3AEF4 /* KKCell.m in Sources */,
+				DF47B17E18FE8D3F00A3AEF4 /* NSObject+Properties.m in Sources */,
+				DF47B16618FE8D3F00A3AEF4 /* NSDictionary+JSONString.m in Sources */,
+				DF47B18F18FE8D3F00A3AEF4 /* NSString+URLEncode.m in Sources */,
+				DF47B15818FE8D3F00A3AEF4 /* KKCircleButton.m in Sources */,
+				DF47B19C18FE8D3F00A3AEF4 /* UITextView+FitFrame.m in Sources */,
+				DF47B17218FE8D3F00A3AEF4 /* NSNumber+Decimal.m in Sources */,
+				DF47B18518FE8D3F00A3AEF4 /* NSString+Decimal.m in Sources */,
+				DF47B18018FE8D3F00A3AEF4 /* NSString+PropertyKVC.m in Sources */,
+				DF47B17A18FE8D3F00A3AEF4 /* NSData+Base64.m in Sources */,
+				DF47B19218FE8D3F00A3AEF4 /* SFHFKeychainUtils.m in Sources */,
+				DF47B17C18FE8D3F00A3AEF4 /* NSError+CFStreamError.m in Sources */,
+				DF47B19618FE8D3F00A3AEF4 /* KKSystem.m in Sources */,
+				DF47B17518FE8D3F00A3AEF4 /* KKPList.m in Sources */,
+				DF47B15018FE8D3F00A3AEF4 /* KKAddressBook.m in Sources */,
+				DF47B16C18FE8D3F00A3AEF4 /* KKKeyboardControl.m in Sources */,
 				DF47B0E618FE8BEB00A3AEF4 /* UIColor+HexString.m in Sources */,
+				DF47B18718FE8D3F00A3AEF4 /* NSString+HMac.m in Sources */,
+				DF47B16F18FE8D3F00A3AEF4 /* KKNavigationControl.m in Sources */,
+				DF47B18918FE8D3F00A3AEF4 /* NSString+MD5.m in Sources */,
+				DF47B17818FE8D3F00A3AEF4 /* b64.m in Sources */,
+				DF47B18318FE8D3F00A3AEF4 /* NSData+ToString.m in Sources */,
+				DF47B18B18FE8D3F00A3AEF4 /* NSString+StrikeThrough.m in Sources */,
+				DF47B15218FE8D3F00A3AEF4 /* KKContactData.m in Sources */,
+				DF47B19418FE8D3F00A3AEF4 /* KKReachability.m in Sources */,
 				DF47B0B918FE89ED00A3AEF4 /* KKLibrary.m in Sources */,
+				DF47B16918FE8D3F00A3AEF4 /* KKFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

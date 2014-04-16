@@ -2,7 +2,7 @@
 //  UIColor+HexString.m
 //  KKLibrary
 //
-//  Created by KaZeKiM Macbook Pro on 1/10/14.
+//  Created by KaZeKiM Macbook Pro on 1/10/13.
 //  Copyright (c) 2014 kazekim. All rights reserved.
 //
 
@@ -13,10 +13,6 @@
 @implementation UIColor(HexString)
 
 + (UIColor *) colorWithHexString: (NSString *) hexString {
-    
-    if(![KKSecurity checkAllowBundle]){
-        return Nil;
-    }
     
     NSString *colorString = [[hexString stringByReplacingOccurrencesOfString: @"#" withString: @""] uppercaseString];
     CGFloat alpha, red, blue, green;
@@ -54,9 +50,6 @@
 
 + (CGFloat) colorComponentFrom: (NSString *) string start: (NSUInteger) start length: (NSUInteger) length {
     
-    if(![KKSecurity checkAllowBundle]){
-        return 0.0f;
-    }
     
     NSString *substring = [string substringWithRange: NSMakeRange(start, length)];
     NSString *fullHex = length == 2 ? substring : [NSString stringWithFormat: @"%@%@", substring, substring];
