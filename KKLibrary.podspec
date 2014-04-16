@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.author       = { "Jirawat Harnsiriwatanakit" => "jirawat.h@kazekim.com" }
     s.platform     = :ios, '7.0'
     s.source       = { :git => "https://github.com/kazekim/KKLibrary" }
-    s.source_files = 'Classes', 'KKLibrary/*'
+    s.source_files = 'Classes', 'KKLibrary/src/*'
     s.framework    = 'UIKit'
     s.requires_arc = true
 
