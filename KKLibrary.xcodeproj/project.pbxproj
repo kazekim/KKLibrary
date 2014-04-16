@@ -73,7 +73,7 @@
 		DF47B18D18FE8D3F00A3AEF4 /* NSString+URLDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B13A18FE8D3F00A3AEF4 /* NSString+URLDecode.m */; };
 		DF47B18E18FE8D3F00A3AEF4 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B13B18FE8D3F00A3AEF4 /* NSString+URLEncode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF47B18F18FE8D3F00A3AEF4 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B13C18FE8D3F00A3AEF4 /* NSString+URLEncode.m */; };
-		DF47B19018FE8D3F00A3AEF4 /* KKStringLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B13D18FE8D3F00A3AEF4 /* KKStringLib.h */; };
+		DF47B19018FE8D3F00A3AEF4 /* KKStringLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B13D18FE8D3F00A3AEF4 /* KKStringLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF47B19118FE8D3F00A3AEF4 /* SFHFKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14018FE8D3F00A3AEF4 /* SFHFKeychainUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF47B19218FE8D3F00A3AEF4 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B14118FE8D3F00A3AEF4 /* SFHFKeychainUtils.m */; };
 		DF47B19318FE8D3F00A3AEF4 /* KKReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14218FE8D3F00A3AEF4 /* KKReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -81,7 +81,7 @@
 		DF47B19518FE8D3F00A3AEF4 /* KKSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14418FE8D3F00A3AEF4 /* KKSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF47B19618FE8D3F00A3AEF4 /* KKSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B14518FE8D3F00A3AEF4 /* KKSystem.m */; };
 		DF47B19718FE8D3F00A3AEF4 /* KKSystemLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14618FE8D3F00A3AEF4 /* KKSystemLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF47B19818FE8D3F00A3AEF4 /* KKCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14818FE8D3F00A3AEF4 /* KKCell.h */; };
+		DF47B19818FE8D3F00A3AEF4 /* KKCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14818FE8D3F00A3AEF4 /* KKCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF47B19918FE8D3F00A3AEF4 /* KKCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47B14918FE8D3F00A3AEF4 /* KKCell.m */; };
 		DF47B19A18FE8D3F00A3AEF4 /* KKTableViewLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14A18FE8D3F00A3AEF4 /* KKTableViewLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF47B19B18FE8D3F00A3AEF4 /* UITextView+FitFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = DF47B14C18FE8D3F00A3AEF4 /* UITextView+FitFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -544,9 +544,9 @@
 				DF47B0E718FE8BEB00A3AEF4 /* KKColorLib.h in Headers */,
 				DF47B18118FE8D3F00A3AEF4 /* KKPropertyLib.h in Headers */,
 				DF47B19B18FE8D3F00A3AEF4 /* UITextView+FitFrame.h in Headers */,
-				DF47B0E518FE8BEB00A3AEF4 /* UIColor+HexString.h in Headers */,
 				DF47B19818FE8D3F00A3AEF4 /* KKCell.h in Headers */,
 				DF47B19018FE8D3F00A3AEF4 /* KKStringLib.h in Headers */,
+				DF47B0E518FE8BEB00A3AEF4 /* UIColor+HexString.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
