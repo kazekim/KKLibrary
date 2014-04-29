@@ -11,11 +11,13 @@
 @implementation NSNumber(Decimal)
 
 -(NSString *)decimal{
-
+    
     NSNumberFormatter *formatter = [NSNumberFormatter new];
-    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    [formatter setNumberStyle:NSNumberFormatterCurrencyStyle];
     
     NSString *formatted = [formatter stringFromNumber:[NSNumber numberWithInteger:[self intValue]]];
+    formatted = [formatted stringByReplacingOccurrencesOfString:@","
+                                                     withString:@"."];
     return formatted;
 }
 
